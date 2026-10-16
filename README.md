@@ -1,44 +1,55 @@
-# Awesome-Big-Data-Analytics-Engines
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Big Data & Analytics Engines Banner" width="100%" />
+</p>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Big-Data-Analytics-Engines/pulls)
+# 🚀 Awesome Big Data & Analytics Engines
 
-> A curated directory and market landscape of leading SaaS platforms and open-source GitHub projects for big data processing, distributed SQL query engines, real-time OLAP databases, and open lakehouse architectures.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Mentioned in Awesome" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Big-Data-Analytics-Engines/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
----
-
-## Table of Contents
-
-- [Overview & Architecture](#overview--architecture)
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Managed Cloud Analytics Platforms](#saas--managed-cloud-analytics-platforms)
-- [Open-Source Analytics & Lakehouse Engines](#open-source-analytics--lakehouse-engines)
-- [Architecture Comparison & Best Practices](#architecture-comparison--best-practices)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+> 🌟 **A curated directory and market landscape** of leading enterprise SaaS platforms and open-source GitHub projects for big data processing, distributed SQL query engines, real-time OLAP databases, and open lakehouse architectures.
 
 ---
 
-## Overview & Architecture
+## 📑 Table of Contents
+
+- [🔍 Overview & Architecture](#-overview--architecture)
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Managed Cloud Analytics Platforms](#-saas--managed-cloud-analytics-platforms)
+- [⚡ Open-Source Analytics & Lakehouse Engines](#-open-source-analytics--lakehouse-engines)
+- [🏛️ Architecture Comparison & Best Practices](#-architecture-comparison--best-practices)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📜 Disclaimer](#-disclaimer)
+
+---
+
+## 🔍 Overview & Architecture
 
 Modern data infrastructure centers around the **Lakehouse Architecture**, **decoupled compute and storage**, and **vectorized distributed query execution**. Whether managing petabyte-scale batch pipelines, sub-second interactive BI dashboards, or federated queries across hybrid clouds, selecting the right analytics engine is critical to balancing latency, scalability, operational overhead, and total cost of ownership (TCO).
 
-This repository categorizes both enterprise-grade SaaS platforms and battle-tested open-source projects power modern analytical engineering.
+This repository categorizes both enterprise-grade SaaS platforms and battle-tested open-source projects powering modern analytical engineering.
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📈 Sector Overview & Market Dynamics
 
 The global big data and analytics engine market is estimated at **$340+ billion in 2026** (with the core cloud data warehousing and lakehouse software sector exceeding **$45 billion** and growing at ~28% CAGR). The market is **moderately concentrated at the top infrastructure layer**—dominated by the hyperscalers (Google Cloud, Microsoft Azure, AWS) alongside independent category leaders (Snowflake, Databricks)—yet remains **highly fragmented and competitive across specialized workloads** such as real-time OLAP (ClickHouse, StarRocks, Doris), in-process analytics (DuckDB, DataFusion), and open lakehouse table management (Apache Iceberg, Delta Lake).
 
 ---
 
-## SaaS & Managed Cloud Analytics Platforms
+## ☁️ SaaS & Managed Cloud Analytics Platforms
 
 The following SaaS and fully managed platforms represent category leaders in cloud data warehousing, lakehouses, real-time analytics, and federated query engines. The table is ranked by company scale (market capitalization or latest private valuation, descending).
 
-| Platform | Company Valuation / Revenue Scale | Starting Pricing | Free Tier / Free Trial Limits | Key Capabilities |
+| Platform | 🏢 Company Valuation / Scale | 💰 Starting Pricing | 🎁 Free Tier / Free Trial Limits | 🛠️ Key Capabilities |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Microsoft Azure Synapse Analytics](https://azure.microsoft.com/en-us/products/synapse-analytics/)** | **~$3.1 Trillion** (Market Cap) | **$0.25 / vCore-hour** (Synapse Serverless SQL at $5.00 per TB processed; Dedicated pools start at $1.20/hour for DW100c) | **Azure Free Account: 12 months free access** to select services + **$200 credit for 30 days**; Synapse includes 5 TB/month free serverless SQL queries | Unified analytics service combining big data and enterprise data warehousing; native deep integration with Power BI, Azure Data Lake, and Microsoft Fabric. |
 | **[Google BigQuery](https://cloud.google.com/bigquery)** | **~$2.1 Trillion** (Market Cap) | **$6.25 per TB** for on-demand queries; Editions start at **$0.04 per compute slot-hour** (Standard Edition) | **Free Forever Tier**: **10 GB storage per month** + **1 TB query processing per month** completely free; plus Google Cloud $300 credit 90-day trial | Fully managed, serverless multi-cloud data warehouse; built-in BigQuery ML, BI Engine sub-second caching, and native Apache Iceberg (BigLake) integration. |
@@ -53,11 +64,11 @@ The following SaaS and fully managed platforms represent category leaders in clo
 
 ---
 
-## Open-Source Analytics & Lakehouse Engines
+## ⚡ Open-Source Analytics & Lakehouse Engines
 
 Production-grade, community-backed open-source engines for batch processing, stream analytics, federated querying, OLAP databases, and table formats. Sorted in descending order by GitHub stargazers.
 
-| Project & Repository | Stars | Category & Architecture | Key Features & Highlights |
+| Project & Repository | ⭐ Stars | 📂 Category & Architecture | 🚀 Key Features & Highlights |
 | :--- | :--- | :--- | :--- |
 | **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** | [![Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers) | Distributed Columnar OLAP Database | Sub-second queries on billions of rows; vectorized SIMD execution, real-time streaming data ingestion, rich SQL dialect, and disk data compression. |
 | **[Apache Spark](https://github.com/apache/spark)** | [![Stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers) | Unified Distributed Compute Framework | De-facto standard for petabyte batch processing, Spark SQL, MLlib machine learning library, GraphX, Structured Streaming, and Spark Connect decoupled client. |
@@ -86,11 +97,11 @@ Production-grade, community-backed open-source engines for batch processing, str
 
 ---
 
-## Architecture Comparison & Best Practices
+## 🏛️ Architecture Comparison & Best Practices
 
 ```
 +-----------------------------------------------------------------------------------+
-|                           CONSUMPTION / APPLICATION LAYER                          |
+|                           CONSUMPTION / APPLICATION LAYER                         |
 |             (Superset, Metabase, Power BI, Tableau, Notebooks, LLM Agents)        |
 +-----------------------------------------------------------------------------------+
                                           ▲
@@ -115,40 +126,59 @@ Production-grade, community-backed open-source engines for batch processing, str
 +-----------------------------------------------------------------------------------+
 ```
 
-### Choosing the Right Engine
+### 🎯 Choosing the Right Engine
 
-1. **For Real-Time Dashboards & Log Analytics**: Use **ClickHouse**, **StarRocks**, or **Apache Doris**. These engines deliver single-digit millisecond query response times over billions of records with column-oriented vectorized execution.
-2. **For High-Scale Batch ETL & Machine Learning**: Use **Apache Spark** or **Databricks**. Their resilient distributed datasets (RDDs), Spark SQL, and Photon execution engine handle complex petabyte-scale data pipelines.
-3. **For Low-Latency Streaming Analytics**: Use **Apache Flink** or **RisingWave** for stateful, exactly-once computations across sliding time windows and real-time Kafka pipelines.
-4. **For Data Lake Query Federation (No-ETL)**: Use **Trino** or **Starburst Galaxy** to execute single SQL queries joining disparate sources across object storage, PostgreSQL, MongoDB, and Snowflake.
-5. **For Local Analysis & In-Memory Data Science**: Choose **DuckDB** or **Polars**. They eliminate JVM overhead and database cluster provisioning, executing fast analytical SQL directly on local Parquet files.
-6. **For Cloud-Native Lakehouse Storage**: Adopt **Apache Iceberg** or **Delta Lake** to future-proof storage, prevent vendor lock-in, and gain ACID transactions with snapshot isolation and time travel.
+1. **⚡ For Real-Time Dashboards & Log Analytics**: Use **ClickHouse**, **StarRocks**, or **Apache Doris**. These engines deliver single-digit millisecond query response times over billions of records with column-oriented vectorized execution.
+2. **🐘 For High-Scale Batch ETL & Machine Learning**: Use **Apache Spark** or **Databricks**. Their resilient distributed datasets (RDDs), Spark SQL, and Photon execution engine handle complex petabyte-scale data pipelines.
+3. **🌊 For Low-Latency Streaming Analytics**: Use **Apache Flink** or **RisingWave** for stateful, exactly-once computations across sliding time windows and real-time Kafka pipelines.
+4. **🌐 For Data Lake Query Federation (No-ETL)**: Use **Trino** or **Starburst Galaxy** to execute single SQL queries joining disparate sources across object storage, PostgreSQL, MongoDB, and Snowflake.
+5. **🦆 For Local Analysis & In-Memory Data Science**: Choose **DuckDB** or **Polars**. They eliminate JVM overhead and database cluster provisioning, executing fast analytical SQL directly on local Parquet files.
+6. **🧊 For Cloud-Native Lakehouse Storage**: Adopt **Apache Iceberg** or **Delta Lake** to future-proof storage, prevent vendor lock-in, and gain ACID transactions with snapshot isolation and time travel.
 
 ---
 
-## How to Contribute
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Big-Data-Analytics-Engines&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Big-Data-Analytics-Engines&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+Thank you for visiting and using this curated resource! If you find this repository helpful:
+
+- ⭐ **Star this repository** to support discovery on GitHub and stay updated.
+- 🍴 **Fork the repo** to keep a reference copy or contribute new engines.
+- 📢 **Share it** with colleagues, data engineering communities, and on social channels.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing maintenance and new open-source initiatives, consider sponsoring via the **[GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)**.
+
+[![GitHub Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=github)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## 🤝 How to Contribute
 
 Contributions are welcome! To add or update an analytics engine:
 
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/add-engine-name`.
-3. Add or edit entries in [README.md](file:///C:/Users/ishan/Documents/Projects/Awesome-Big-Data-Analytics-Engines/README.md).
+1. 🍴 Fork the repository.
+2. 🌿 Create a new branch: `git checkout -b feature/add-engine-name`.
+3. 📝 Add or edit entries in [README.md](file:///C:/Users/ishan/Documents/Projects/Awesome-Big-Data-Analytics-Engines/README.md).
    - For **SaaS platforms**, include exact valuation/revenue, starting pricing tier, and specific free tier/trial limits.
    - For **Open-source projects**, include the official repository link, star badge (`style=social&color=white`) linking to its stargazers page, architecture category, and factual capabilities.
-4. Open a Pull Request with a clear description of your additions.
+4. 🚀 Open a Pull Request with a clear description of your additions.
 
 ---
 
-## Disclaimer
+## 📜 Disclaimer
 
-- This is a community-curated directory intended for research, architectural planning, and educational purposes.
-- All product names, logos, and brands are property of their respective owners. Company valuations and pricing figures are based on publicly available filings and published pricing tiers as of 2026.
-- Ensure appropriate data governance, encryption, and regulatory compliance (GDPR, HIPAA, CCPA) when configuring distributed analytical workloads.
+- 📖 This is a community-curated directory intended for research, architectural planning, and educational purposes.
+- 🏢 All product names, logos, and brands are property of their respective owners. Company valuations and pricing figures are based on publicly available filings and published pricing tiers as of 2026.
+- 🔒 Ensure appropriate data governance, encryption, and regulatory compliance (GDPR, HIPAA, CCPA) when configuring distributed analytical workloads.
 
 ---
 
 <div align="center">
 
-**[Back to Top](#awesome-big-data-analytics-engines)**
+**[⬆️ Back to Top](#-awesome-big-data-analytics-engines)**
 
 </div>

@@ -68,7 +68,7 @@ The following SaaS and fully managed platforms represent category leaders in clo
 
 Production-grade, community-backed open-source engines for batch processing, stream analytics, federated querying, OLAP databases, and table formats. Sorted in descending order by GitHub stargazers.
 
-| Project & Repository | ⭐ Stars | 📂 Category & Architecture | 🚀 Key Features & Highlights |
+| Project & Repository | ⭐ GitHub_Stars | 📂 Category & Architecture | 🚀 Key Features & Highlights |
 | :--- | :--- | :--- | :--- |
 | **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** | [![Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers) | Distributed Columnar OLAP Database | Sub-second queries on billions of rows; vectorized SIMD execution, real-time streaming data ingestion, rich SQL dialect, and disk data compression. |
 | **[Apache Spark](https://github.com/apache/spark)** | [![Stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers) | Unified Distributed Compute Framework | De-facto standard for petabyte batch processing, Spark SQL, MLlib machine learning library, GraphX, Structured Streaming, and Spark Connect decoupled client. |
@@ -164,7 +164,7 @@ Contributions are welcome! To add or update an analytics engine:
 2. 🌿 Create a new branch: `git checkout -b feature/add-engine-name`.
 3. 📝 Add or edit entries in [README.md](file:///C:/Users/ishan/Documents/Projects/Awesome-Big-Data-Analytics-Engines/README.md).
    - For **SaaS platforms**, include exact valuation/revenue, starting pricing tier, and specific free tier/trial limits.
-   - For **Open-source projects**, include the official repository link, star badge (`style=social&color=white`) linking to its stargazers page, architecture category, and factual capabilities.
+   - For **Open-source projects**, include the official repository link, Stars_Badge (`style=social&color=white`) linking to its stargazers page, architecture category, and factual capabilities.
 4. 🚀 Open a Pull Request with a clear description of your additions.
 
 ---
